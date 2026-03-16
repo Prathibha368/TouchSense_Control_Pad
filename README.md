@@ -4,7 +4,7 @@ Overview
 This project implements a Touch Pad Sense Control System using an STM32 microcontroller and FreeRTOS. The system uses external interrupt-based touch inputs to switch between multiple operating modes. Each mode activates a specific task that toggles LEDs at different intervals. The system also supports UART commands to monitor system status and change operating modes dynamically.
 The project demonstrates real-time multitasking, event handling, interrupt handling, and task synchronization using FreeRTOS.
 
-🎯Features:                                                                                       
+**🎯Features: **                                                                                      
 Touch pad input using GPIO interrupts
 
 FreeRTOS multitasking
