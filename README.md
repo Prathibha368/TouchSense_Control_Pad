@@ -6,7 +6,6 @@ The project demonstrates real-time multitasking, event handling, interrupt handl
 
 🎯Features:                                                                                       
 Touch pad input using GPIO interrupts
-
 FreeRTOS multitasking
 
 Mode switching using Event Groups
