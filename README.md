@@ -6,13 +6,19 @@ The project demonstrates real-time multitasking, event handling, interrupt handl
 
 🎯Features:                                                                                       
 Touch pad input using GPIO interrupts
+
 FreeRTOS multitasking
 
 Mode switching using Event Groups
+
 Software timers for periodic operations
+
 UART command interface
+
 Mutex protection for shared resources
+
 Task monitoring using FreeRTOS task list
+
 Emergency mode support
 
 ⚡Hardware Requirements
