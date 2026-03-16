@@ -22,39 +22,62 @@ Task monitoring using FreeRTOS task list
 Emergency mode support
 
 ⚡Hardware Requirements
+
 STM32 development board (STM32F4 series)
+
 4 Push Buttons / Touch Inputs
+
 LEDs connected to GPIO pins
+
 UART interface (115200 baud)
+
 USB to Serial converter
 
 🏎️Operating Modes:
 
 Emergency Mode
+
 Triggered by PA0
+
 Toggles Emergency LED
+
 Higher priority task
 
 Task1 Mode
+
 Triggered by PA1
+
 Toggles LED every 500 ms
 
+
 Task2 Mode
+
 Triggered by PA2
+
 Toggles LED every 1000 ms
 
 Task3 Mode
+
 Triggered by PA3
+
 Toggles LED every 1500 ms
+
 Only one task runs at a time. Others remain suspended.
 
 FreeRTOS Components Used
+
 Tasks
+
 Emergency_Task
+
 Task1
+
 Task2
+
 Task3
+
 Control_Task
+
 UART_Task
 
 Synchronization
